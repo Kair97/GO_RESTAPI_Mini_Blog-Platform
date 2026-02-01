@@ -233,7 +233,7 @@ http://localhost:8080
 
 ## Author
 
-Built by **V**
+Built by **Orynbek Kairzhan**
 Pet project · Learning · Growth
 
 ```
