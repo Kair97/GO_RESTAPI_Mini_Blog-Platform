@@ -235,6 +235,3 @@ http://localhost:8080
 
 Built by **Orynbek Kairzhan**
 Pet project · Learning · Growth
-
-```
-```
