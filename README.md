@@ -62,6 +62,8 @@ This project was developed as a pet project to practice real-world backend archi
 ```text
 blog-platform/
 ├── main.go
+├── config/
+│   └── jwt.go
 ├── routes/
 │   └── routes.go
 ├── handlers/
@@ -180,8 +182,11 @@ cd GO_RESTAPI_Mini_Blog-Platform
 
 ### 2. Create `.env`
 ```
-DB_URL=postgres://user:password@localhost:5432/blog
-JWT_SECRET=your_secret_key
+DB_HOST=localhost
+DB_PORT=5432
+DB_USER=your_user
+DB_PASSWORD=your_password
+DB_NAME=blog
 ```
 
 ### 3. Run the server
