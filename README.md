@@ -1,4 +1,3 @@
-```markdown
 # Blog Platform
 
 A full-stack blog platform built with **Go (Gin)** and **PostgreSQL**, featuring authentication, posts, comments, and likes.  
@@ -60,8 +59,7 @@ This project was developed as a pet project to practice real-world backend archi
 
 ## Project Structure
 
-```
-
+```text
 blog-platform/
 ├── main.go
 ├── routes/
@@ -96,7 +94,6 @@ blog-platform/
 │   ├── css/
 │   └── script/
 └── README.md
-
 ```
 
 ---
@@ -128,42 +125,34 @@ blog-platform/
 ## API Overview
 
 ### Auth
-```
-
+```text
 POST /auth/register
 POST /auth/login
-
 ```
 
 ### Posts
-```
-
+```text
 GET    /posts
 GET    /posts/:id
 POST   /posts
 PUT    /posts/:id
 PATCH  /posts/:id
 DELETE /posts/:id
-
 ```
 
 ### Likes
-```
-
+```text
 POST   /posts/:id/like
 DELETE /posts/:id/like
 GET    /posts/:id/likes
-
 ```
 
 ### Comments
-```
-
+```text
 GET    /posts/:id/comments
 POST   /posts/:id/comments
 DELETE /comments/:id
-
-````
+```
 
 ---
 
@@ -185,12 +174,11 @@ Relationships are enforced using foreign keys and ownership checks in queries.
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/blog-platform.git
-cd blog-platform
-````
+git clone https://github.com/Kair97/GO_RESTAPI_Mini_Blog-Platform.git
+cd GO_RESTAPI_Mini_Blog-Platform
+```
 
 ### 2. Create `.env`
-
 ```
 DB_URL=postgres://user:password@localhost:5432/blog
 JWT_SECRET=your_secret_key
@@ -203,7 +191,6 @@ go run main.go
 ```
 
 ### 4. Open in browser
-
 ```
 http://localhost:8080
 ```
